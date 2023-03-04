@@ -50,15 +50,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Next/React/Native Front Developer",
+    title: "Front Development - Next/React/Native/Vite/Three ",
     icon: mobile,
   },
   {
-    title: "Backend Developer & DLT",
+    title: "Backend Development - Firebase/Sanity/APIs/EVMs",
     icon: backend,
   },
   {
-    title: "Marketing & Video Content Creator",
+    title: "Marketing UX & Content Creation",
     icon: creator,
   },
 ];
