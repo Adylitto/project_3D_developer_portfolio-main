@@ -18,10 +18,10 @@ import {
   meta,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  shopify1,
   threejs,
+  uberweb3,
+  daprod,
 } from "../assets";
 
 export const navLinks = [
@@ -145,7 +145,7 @@ const experiences = [
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "2018 - 2020",
+    date: "2018 - 2019",
     points: [
       "Developing and maintaining web applications using Ruby React.js and other related technologies.",
       "Collaborating with cross-functional teams including Manufacturers, designers, product managers, and other developers to create high-quality products.",
@@ -158,7 +158,7 @@ const experiences = [
     company_name: "BH Empire",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "2020 - Present",
+    date: "2019 - 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -180,9 +180,9 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Adyl does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Michael G.",
+    designation: "Founder",
+    company: "LEVEL UP",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -196,29 +196,55 @@ const testimonials = [
 ];
 
 const projects = [
+  
   {
-    name: "SwissDriver",
+    name: "DAprOd.org",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals driver services from various providers, providing a convenient and efficient solution for transportation needs.",
+      "DAprOd is a DAO dApp aiming at changing by enhancing the way entertainement is produced today.",
     tags: [
       {
-        name: "react",
+        name: "Thirdweb-hardhat-ethers-dotenv",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-vite-tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "EVM-metamask-Goerli",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: daprod,
+    source_code_link: "https://github.com/Adylitto/DAprOd.org",
+  },
+  {
+    name: "Uber Web3",
+    description:
+      "This project demonstrates a Uber clone app running on Web3 ETH EVM token authentication & payments enabled. Use Metamask and Chrome browser to interact",
+    tags: [
+      {
+        name: "metamask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "mapbox",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: uberweb3,
+    source_code_link: "https://github.com/Adylitto/uber-web3",
   },
   {
-    name: "Job IT",
+    name: "Shopify dev",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -235,29 +261,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: shopify1,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "DAprOd.org",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "DAprOd is a DAO aiming at changing by enhancing the way entertainement is produced today.",
     tags: [
       {
-        name: "nextjs",
+        name: "Thirdweb-hardhat-ethers-dotenv",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-vite-tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "EVM-metamask-Goerli",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: daprod,
+    source_code_link: "https://github.com/Adylitto/DAprOd.org",
+  },
+  {
+    name: "DAprOd.org",
+    description:
+      "DAprOd is a DAO aiming at changing by enhancing the way entertainement is produced today.",
+    tags: [
+      {
+        name: "Thirdweb-hardhat-ethers-dotenv",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-vite-tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "EVM-metamask-Goerli",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: daprod,
+    source_code_link: "https://github.com/Adylitto/DAprOd.org",
   },
 ];
 
