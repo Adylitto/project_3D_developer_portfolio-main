@@ -354,9 +354,9 @@ const projects = [
     source_code_link: "https://github.com/Adylitto/gym-exercices",
   },
   {
-    name: "Kodex- ChatGPT openAi-API App",
+    name: "Kodex- my ChatGPT App",
     description:
-      "my very smart coding and development openAI companion!",
+      "my very smart coding and development openAI companion! using openAI API",
     tags: [
       {
         name: "Vite.js",
