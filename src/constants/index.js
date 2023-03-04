@@ -26,6 +26,7 @@ import {
   lyriks,
   ytapp,
   chatgpt,
+  adyl,
 } from "../assets";
 
 export const navLinks = [
@@ -201,6 +202,27 @@ const testimonials = [
 
 const projects = [
   
+  {
+    name: "Adyl Three.js portfolio",
+    description:
+      "Portfolio using the latest industry-standard best practices & UI tech such as React Three Fiber, Higher Order Components (HOCs), emailjs.",
+    tags: [
+      {
+        name: "ThreeJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactThreeFiber-tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: adyl,
+    source_code_link: "https://github.com/Adylitto/DAprOd.org",
+  },
   {
     name: "DAprOd.org",
     description:

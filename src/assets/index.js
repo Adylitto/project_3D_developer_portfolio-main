@@ -33,6 +33,7 @@ import gymexos from "./gymexos.webp";
 import lyriks from "./lyriks.webp";
 import ytapp from "./ytapp.webp";
 import chatgpt from "./chatgpt.webp";
+import adyl from "./adyl.webp";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   lyriks,
   ytapp,
   chatgpt,
+  adyl,
 };
