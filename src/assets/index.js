@@ -29,6 +29,10 @@ import carrent from "./carrent.png";
 import uberweb3 from "./uberweb3.webp";
 import shopify1 from "./shopify1.webp";
 import daprod from "./daprod.webp";
+import gymexos from "./gymexos.webp";
+import lyriks from "./lyriks.webp";
+import ytapp from "./ytapp.webp";
+import chatgpt from "./chatgpt.webp";
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   shopify1,
   uberweb3,
   daprod,
+  gymexos,
+  lyriks,
+  ytapp,
+  chatgpt,
 };

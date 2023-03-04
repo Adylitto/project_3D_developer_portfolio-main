@@ -22,6 +22,10 @@ import {
   threejs,
   uberweb3,
   daprod,
+  gymexos,
+  lyriks,
+  ytapp,
+  chatgpt,
 } from "../assets";
 
 export const navLinks = [
@@ -265,46 +269,88 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "DAprOd.org",
+    name: "Youtube API App",
     description:
-      "DAprOd is a DAO aiming at changing by enhancing the way entertainement is produced today.",
+      "a Modern YouTube Clone Application in React JS with Material UI 5.",
     tags: [
       {
-        name: "Thirdweb-hardhat-ethers-dotenv",
+        name: "React-axios",
         color: "blue-text-gradient",
       },
       {
-        name: "react-vite-tailwindcss",
+        name: "materialUI",
         color: "green-text-gradient",
       },
       {
-        name: "EVM-metamask-Goerli",
+        name: "RapidAPI-axios",
         color: "pink-text-gradient",
       },
     ],
-    image: daprod,
-    source_code_link: "https://github.com/Adylitto/DAprOd.org",
+    image: ytapp,
+    source_code_link: "https://github.com/Adylitto/youtube-clone",
   },
   {
-    name: "DAprOd.org",
+    name: "Lyriks",
     description:
-      "DAprOd is a DAO aiming at changing by enhancing the way entertainement is produced today.",
+      "a Better Spotify 2.0 Clone Music App with React 18! including lyrics for friday night Karaoke sessions!",
     tags: [
       {
-        name: "Thirdweb-hardhat-ethers-dotenv",
+        name: "react18",
         color: "blue-text-gradient",
       },
       {
-        name: "react-vite-tailwindcss",
+        name: "RapidAPI-shazam-redux",
         color: "green-text-gradient",
       },
       {
-        name: "EVM-metamask-Goerli",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: daprod,
-    source_code_link: "https://github.com/Adylitto/DAprOd.org",
+    image: lyriks,
+    source_code_link: "https://github.com/Adylitto/lyriks",
+  },
+  {
+    name: "Gym Exercices App",
+    description:
+      "a Fitness App with React 18! for me to stay FIT!",
+    tags: [
+      {
+        name: "react18",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gymexos,
+    source_code_link: "https://github.com/Adylitto/gym-exercices",
+  },
+  {
+    name: "Kodex- ChatGPT openAi-API App",
+    description:
+      "my very smart coding and development openAI companion!",
+    tags: [
+      {
+        name: "Vite.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openAPI-cors-nodemon-dotenv",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatgpt,
+    source_code_link: "https://github.com/Adylitto/openai",
   },
 ];
 
