@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -16,9 +16,12 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
+  const tiltRef = useRef(null);
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
+        ref={tiltRef}
         options={{
           max: 45,
           scale: 1,
@@ -97,4 +100,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
